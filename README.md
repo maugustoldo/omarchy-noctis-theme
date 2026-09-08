@@ -6,6 +6,8 @@ An elegant and corporate theme for [Omarchy](https://omarchy.org), extracted fro
 
 Focused on usability and sobriety, the theme offers a clean nocturnal background, with off-white texts to reduce eye strain, and an accent color in champagne/gold tones to ensure an elegant visual hierarchy.
 
+![https://raw.githubusercontent.com/maugustoldo/omarchy-noctis-theme/refs/heads/master/backgrounds/gradient-noctis.png](https://raw.githubusercontent.com/maugustoldo/omarchy-noctis-theme/refs/heads/master/backgrounds/gradient-noctis.png)
+
 ## Installation
 
 In your Omarchy environment, just run the official theme installation command:
