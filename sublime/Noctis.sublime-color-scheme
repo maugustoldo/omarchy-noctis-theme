@@ -1,0 +1,131 @@
+{
+    "name": "Noctis",
+    "author": "Marcos Augusto",
+    "variables":
+    {
+        "accent": "#ead99e",
+        "background": "#131313",
+        "foreground": "#d4d4d4",
+        "selection": "#252525",
+        "muted": "#a0a0a0",
+        
+        "red": "#d17b7b",
+        "yellow": "#ead99e",
+        "orange": "#cfa67c",
+        "green": "#9bb382",
+        "cyan": "#82a7a7",
+        "blue": "#829cb3",
+        "magenta": "#a88a9f"
+    },
+    "globals":
+    {
+        "background": "var(background)",
+        "foreground": "var(foreground)",
+        "caret": "var(accent)",
+        "selection": "var(selection)",
+        "line_highlight": "#1c1c1c",
+        "find_highlight": "var(background)",
+        "find_highlight_foreground": "var(yellow)",
+        "selection_border": "var(selection)",
+        "active_guide": "var(accent)",
+        "misspelling": "var(red)",
+        "brackets_options": "underline",
+        "brackets_foreground": "var(cyan)",
+        "bracket_contents_options": "underline",
+        "bracket_contents_foreground": "var(yellow)",
+        "tags_options": "stippled_underline"
+    },
+    "rules":
+    [
+        {
+            "name": "Comment",
+            "scope": "comment",
+            "foreground": "var(muted)",
+            "font_style": "italic"
+        },
+        {
+            "name": "String",
+            "scope": "string",
+            "foreground": "var(green)"
+        },
+        {
+            "name": "Number",
+            "scope": "constant.numeric",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Built-in constant",
+            "scope": "constant.language",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "User-defined constant",
+            "scope": "constant.character, constant.other",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Variable",
+            "scope": "variable",
+            "foreground": "var(foreground)"
+        },
+        {
+            "name": "Keyword",
+            "scope": "keyword, storage.type, storage.modifier",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Storage",
+            "scope": "storage",
+            "foreground": "var(magenta)"
+        },
+        {
+            "name": "Function name",
+            "scope": "entity.name.function, meta.function-call, variable.function",
+            "foreground": "var(blue)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Class name",
+            "scope": "entity.name.class, entity.name.type.class",
+            "foreground": "var(yellow)",
+            "font_style": "bold"
+        },
+        {
+            "name": "Inherited class",
+            "scope": "entity.other.inherited-class",
+            "foreground": "var(green)",
+            "font_style": "italic underline"
+        },
+        {
+            "name": "Function argument",
+            "scope": "variable.parameter",
+            "foreground": "var(orange)"
+        },
+        {
+            "name": "Tag name",
+            "scope": "entity.name.tag",
+            "foreground": "var(red)"
+        },
+        {
+            "name": "Tag attribute",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Library function",
+            "scope": "support.function",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Library constant",
+            "scope": "support.constant",
+            "foreground": "var(cyan)"
+        },
+        {
+            "name": "Library class/type",
+            "scope": "support.type, support.class",
+            "foreground": "var(cyan)",
+            "font_style": "italic"
+        }
+    ]
+}
