@@ -1,0 +1,25 @@
+mode = "dark"
+
+accent = "#ead99e"
+selection = "#252525"
+muted = "#a0a0a0"
+
+background = "#131313"
+dark_background = "#0d0d0d"
+darker_background = "#080808"
+lighter_background = "#1c1c1c"
+
+foreground = "#d4d4d4"
+dark_foreground = "#a0a0a0"
+light_foreground = "#eaeaea"
+bright_foreground = "#ffffff"
+
+# Cores semânticas elegantes e dessaturadas
+red = "#d17b7b"
+yellow = "#ead99e"
+orange = "#cfa67c"
+green = "#9bb382"
+cyan = "#82a7a7"
+blue = "#829cb3"
+magenta = "#a88a9f"
+brown = "#826b5d"
